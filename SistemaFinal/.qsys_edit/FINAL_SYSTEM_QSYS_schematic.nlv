@@ -1,0 +1,23 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst FINAL_SYSTEM_QSYS.RISC_V_AVALON_0 -pg 1 -lvl 3 -y 170
+preplace inst FINAL_SYSTEM_QSYS.clk_0 -pg 1 -lvl 1 -y 170
+preplace inst FINAL_SYSTEM_QSYS.INSTRUCCION_MEM -pg 1 -lvl 4 -y 270
+preplace inst FINAL_SYSTEM_QSYS.avalon_displays7seg_0 -pg 1 -lvl 4 -y 90
+preplace inst FINAL_SYSTEM_QSYS -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst FINAL_SYSTEM_QSYS.AvalonMasterUART_0 -pg 1 -lvl 2 -y 30
+preplace inst FINAL_SYSTEM_QSYS.EXTERNAL_MEM -pg 1 -lvl 4 -y 190
+preplace netloc POINT_TO_POINT<net_container>FINAL_SYSTEM_QSYS</net_container>(MASTER)RISC_V_AVALON_0.master_instruccions,(SLAVE)INSTRUCCION_MEM.s1) 1 3 1 1060
+preplace netloc EXPORT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)FINAL_SYSTEM_QSYS.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)RISC_V_AVALON_0.debug,(MASTER)AvalonMasterUART_0.avalon_master) 1 2 1 770
+preplace netloc FAN_OUT<net_container>FINAL_SYSTEM_QSYS</net_container>(MASTER)clk_0.clk,(SLAVE)RISC_V_AVALON_0.clock,(SLAVE)EXTERNAL_MEM.clk1,(SLAVE)avalon_displays7seg_0.clock_sink,(SLAVE)INSTRUCCION_MEM.clk1,(SLAVE)AvalonMasterUART_0.clock) 1 1 3 430 280 690 120 1120
+preplace netloc EXPORT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)FINAL_SYSTEM_QSYS.avalonmasteruart_0_rs232_rx,(SLAVE)AvalonMasterUART_0.rs232_rx) 1 0 2 NJ 120 NJ
+preplace netloc EXPORT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)avalon_displays7seg_0.external_interface,(SLAVE)FINAL_SYSTEM_QSYS.avalon_displays7seg_0_external_interface) 1 0 4 NJ 160 NJ 260 NJ 140 NJ
+preplace netloc FAN_OUT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)AvalonMasterUART_0.reset,(SLAVE)RISC_V_AVALON_0.reset_sink,(SLAVE)INSTRUCCION_MEM.reset1,(MASTER)clk_0.clk_reset,(SLAVE)EXTERNAL_MEM.reset1,(SLAVE)avalon_displays7seg_0.reset_sink) 1 1 3 450 300 790 160 1100
+preplace netloc POINT_TO_POINT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)AvalonMasterUART_0.control,(SLAVE)RISC_V_AVALON_0.control_debug) 1 1 2 490 240 750
+preplace netloc FAN_OUT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)EXTERNAL_MEM.s1,(MASTER)RISC_V_AVALON_0.master_external,(SLAVE)avalon_displays7seg_0.avalon_slave) 1 3 1 1080
+preplace netloc EXPORT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)AvalonMasterUART_0.rs232_tx,(SLAVE)FINAL_SYSTEM_QSYS.avalonmasteruart_0_rs232_tx) 1 0 2 NJ 140 NJ
+preplace netloc EXPORT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)FINAL_SYSTEM_QSYS.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)AvalonMasterUART_0.DoneSending,(SLAVE)RISC_V_AVALON_0.DoneSending) 1 1 2 470 220 NJ
+levelinfo -pg 1 0 200 1340
+levelinfo -hier FINAL_SYSTEM_QSYS 210 240 520 820 1170 1330

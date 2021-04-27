@@ -1,0 +1,132 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Pablo/Desktop/TFG/CHS/Anyadir_perifericos/AvalonUARTQsys/testbench/AvalonUARTQsys_tb/simulation
+vavalon_mm_master
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1619167753
+!i10b 1
+!s100 ?RGHbm1hIdkV`kRQY`nb71
+Iec_Zb=E9k3RjPOB<?J_N81
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 avalon_mm_master_sv_unit
+S1
+R0
+Z4 w1619167314
+8../../AvalonUARTQsys_tb/simulation/submodules/avalon_mm_master.sv
+F../../AvalonUARTQsys_tb/simulation/submodules/avalon_mm_master.sv
+L0 9
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1619167753.000000
+!s107 ../../AvalonUARTQsys_tb/simulation/submodules/avalon_mm_master.sv|
+!s90 -reportprogress|300|-sv|../../AvalonUARTQsys_tb/simulation/submodules/avalon_mm_master.sv|-L|altera_common_sv_packages|-work|AvalonMasterUART_0|
+!i113 1
+Z7 o-sv -L altera_common_sv_packages -work AvalonMasterUART_0
+Z8 tCvgOpt 0
+vavalon_UART
+R1
+R2
+!i10b 1
+!s100 3O7=oJn6ReV9ORGmQbib91
+IO@Zc:l=jCjC;;L7=:o1MY1
+R3
+!s105 avalon_UART_sv_unit
+S1
+R0
+R4
+8../../AvalonUARTQsys_tb/simulation/submodules/avalon_UART.sv
+F../../AvalonUARTQsys_tb/simulation/submodules/avalon_UART.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1619167752.000000
+!s107 ../../AvalonUARTQsys_tb/simulation/submodules/avalon_UART.sv|
+!s90 -reportprogress|300|-sv|../../AvalonUARTQsys_tb/simulation/submodules/avalon_UART.sv|-L|altera_common_sv_packages|-work|AvalonMasterUART_0|
+!i113 1
+R7
+R8
+navalon_@u@a@r@t
+vUART
+R1
+R2
+!i10b 1
+!s100 <R262>Olg:_A[dAQDR_1@3
+Il0V_QM@6Z[K;TD25UNEkc1
+R3
+!s105 UART_sv_unit
+S1
+R0
+R4
+8../../AvalonUARTQsys_tb/simulation/submodules/UART.sv
+F../../AvalonUARTQsys_tb/simulation/submodules/UART.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../../AvalonUARTQsys_tb/simulation/submodules/UART.sv|
+!s90 -reportprogress|300|-sv|../../AvalonUARTQsys_tb/simulation/submodules/UART.sv|-L|altera_common_sv_packages|-work|AvalonMasterUART_0|
+!i113 1
+R7
+R8
+n@u@a@r@t
+vuart_rx
+R1
+R2
+!i10b 1
+!s100 84FQWa8Gf^RMG7UUZ;QzA3
+IZ0Mh<JRfFS`P?dUmH@K5c3
+R3
+!s105 uart_rx_sv_unit
+S1
+R0
+R4
+8../../AvalonUARTQsys_tb/simulation/submodules/uart_rx.sv
+F../../AvalonUARTQsys_tb/simulation/submodules/uart_rx.sv
+Z9 L0 14
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../../AvalonUARTQsys_tb/simulation/submodules/uart_rx.sv|
+!s90 -reportprogress|300|-sv|../../AvalonUARTQsys_tb/simulation/submodules/uart_rx.sv|-L|altera_common_sv_packages|-work|AvalonMasterUART_0|
+!i113 1
+R7
+R8
+vuart_tx
+R1
+R2
+!i10b 1
+!s100 =cH4WQGHaY@?f9CFo^CE^1
+IJ9mC:HlH8N_^1hLzCg<^_0
+R3
+!s105 uart_tx_sv_unit
+S1
+R0
+R4
+8../../AvalonUARTQsys_tb/simulation/submodules/uart_tx.sv
+F../../AvalonUARTQsys_tb/simulation/submodules/uart_tx.sv
+R9
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../../AvalonUARTQsys_tb/simulation/submodules/uart_tx.sv|
+!s90 -reportprogress|300|-sv|../../AvalonUARTQsys_tb/simulation/submodules/uart_tx.sv|-L|altera_common_sv_packages|-work|AvalonMasterUART_0|
+!i113 1
+R7
+R8

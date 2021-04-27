@@ -1,0 +1,9 @@
+	component AvalonRiscV_QSYS is
+		port (
+			clk_clk                : in  std_logic := 'X'; -- clk
+			masteruart_rs232_rx_rx : in  std_logic := 'X'; -- rx
+			masteruart_rs232_tx_tx : out std_logic;        -- tx
+			reset_reset_n          : in  std_logic := 'X'  -- reset_n
+		);
+	end component AvalonRiscV_QSYS;
+

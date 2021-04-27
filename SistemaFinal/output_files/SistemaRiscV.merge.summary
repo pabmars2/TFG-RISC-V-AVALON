@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Fri Apr 23 13:47:42 2021
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : SistemaRiscV
+Top-level Entity Name : top_QSYS_RISC
+Family : Cyclone IV E
+Total logic elements : 5,469
+    Total combinational functions : 3,958
+    Dedicated logic registers : 2,516
+Total registers : 2516
+Total pins : 59
+Total virtual pins : 0
+Total memory bits : 6,144
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

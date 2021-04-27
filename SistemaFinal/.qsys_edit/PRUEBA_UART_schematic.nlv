@@ -1,0 +1,16 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst PRUEBA_UART.clk_0 -pg 1 -lvl 1 -y 30
+preplace inst PRUEBA_UART.avalon_displays7seg_0 -pg 1 -lvl 3 -y 30
+preplace inst PRUEBA_UART.AvalonMasterUART_0 -pg 1 -lvl 2 -y 110
+preplace inst PRUEBA_UART -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc EXPORT<net_container>PRUEBA_UART</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)PRUEBA_UART.reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>PRUEBA_UART</net_container>(SLAVE)avalon_displays7seg_0.external_interface,(SLAVE)PRUEBA_UART.avalon_displays7seg_0_external_interface) 1 0 3 NJ 100 NJ 100 NJ
+preplace netloc POINT_TO_POINT<net_container>PRUEBA_UART</net_container>(MASTER)AvalonMasterUART_0.avalon_master,(SLAVE)avalon_displays7seg_0.avalon_slave) 1 2 1 650
+preplace netloc FAN_OUT<net_container>PRUEBA_UART</net_container>(SLAVE)AvalonMasterUART_0.clock,(SLAVE)avalon_displays7seg_0.clock_sink,(MASTER)clk_0.clk) 1 1 2 430 60 NJ
+preplace netloc EXPORT<net_container>PRUEBA_UART</net_container>(SLAVE)PRUEBA_UART.avalonmasteruart_0_rs232_rx,(SLAVE)AvalonMasterUART_0.rs232_rx) 1 0 2 NJ 200 NJ
+preplace netloc FAN_OUT<net_container>PRUEBA_UART</net_container>(SLAVE)AvalonMasterUART_0.reset,(MASTER)clk_0.clk_reset,(SLAVE)avalon_displays7seg_0.reset_sink) 1 1 2 410 80 NJ
+preplace netloc EXPORT<net_container>PRUEBA_UART</net_container>(SLAVE)PRUEBA_UART.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>PRUEBA_UART</net_container>(SLAVE)AvalonMasterUART_0.rs232_tx,(SLAVE)PRUEBA_UART.avalonmasteruart_0_rs232_tx) 1 0 2 NJ 220 NJ
+levelinfo -pg 1 0 200 870
+levelinfo -hier PRUEBA_UART 210 240 460 700 860

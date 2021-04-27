@@ -1,0 +1,49 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\Pablo\Desktop\TFG\SistemaFinal\PRUEBA_UART.qsys --block-symbol-file --output-directory=C:\Users\Pablo\Desktop\TFG\SistemaFinal\PRUEBA_UART --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading SistemaFinal/PRUEBA_UART.qsys
+Progress: Reading input file
+Progress: Adding AvalonMasterUART_0 [AvalonMasterUART 3.5]
+Progress: Parameterizing module AvalonMasterUART_0
+Progress: Adding avalon_displays7seg_0 [avalon_displays7seg 1.0]
+Progress: Parameterizing module avalon_displays7seg_0
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: PRUEBA_UART.AvalonMasterUART_0: AvalonMasterUART_0.control must be exported, or connected to a matching conduit.
+Warning: PRUEBA_UART.AvalonMasterUART_0: AvalonMasterUART_0.DoneSending must be exported, or connected to a matching conduit.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\Pablo\Desktop\TFG\SistemaFinal\PRUEBA_UART.qsys --synthesis=VERILOG --output-directory=C:\Users\Pablo\Desktop\TFG\SistemaFinal\PRUEBA_UART\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading SistemaFinal/PRUEBA_UART.qsys
+Progress: Reading input file
+Progress: Adding AvalonMasterUART_0 [AvalonMasterUART 3.5]
+Progress: Parameterizing module AvalonMasterUART_0
+Progress: Adding avalon_displays7seg_0 [avalon_displays7seg 1.0]
+Progress: Parameterizing module avalon_displays7seg_0
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: PRUEBA_UART.AvalonMasterUART_0: AvalonMasterUART_0.control must be exported, or connected to a matching conduit.
+Warning: PRUEBA_UART.AvalonMasterUART_0: AvalonMasterUART_0.DoneSending must be exported, or connected to a matching conduit.
+Info: PRUEBA_UART: Generating PRUEBA_UART "PRUEBA_UART" for QUARTUS_SYNTH
+Info: Interconnect is inserted between master AvalonMasterUART_0.avalon_master and slave avalon_displays7seg_0.avalon_slave because the master has waitrequest signal 1 bit wide, but the slave is 0 bit wide.
+Info: Interconnect is inserted between master AvalonMasterUART_0.avalon_master and slave avalon_displays7seg_0.avalon_slave because the master has address signal 32 bit wide, but the slave is 3 bit wide.
+Info: Interconnect is inserted between master AvalonMasterUART_0.avalon_master and slave avalon_displays7seg_0.avalon_slave because the master has lock signal 1 bit wide, but the slave is 0 bit wide.
+Warning: PRUEBA_UART: "No matching role found for AvalonMasterUART_0:avalon_master:BEGINTRANSFER (flush)"
+Info: AvalonMasterUART_0: "PRUEBA_UART" instantiated AvalonMasterUART "AvalonMasterUART_0"
+Info: avalon_displays7seg_0: "PRUEBA_UART" instantiated avalon_displays7seg "avalon_displays7seg_0"
+Info: mm_interconnect_0: "PRUEBA_UART" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "PRUEBA_UART" instantiated altera_reset_controller "rst_controller"
+Info: AvalonMasterUART_0_avalon_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "AvalonMasterUART_0_avalon_master_translator"
+Info: avalon_displays7seg_0_avalon_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "avalon_displays7seg_0_avalon_slave_translator"
+Info: PRUEBA_UART: Done "PRUEBA_UART" with 7 modules, 15 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
