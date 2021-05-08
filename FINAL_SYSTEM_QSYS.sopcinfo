@@ -5,11 +5,11 @@
  version="1.0"
  fabric="QSYS">
  <!-- Format version 17.1 590 (Future versions may contain additional information.) -->
- <!-- 2021.04.27.13:01:27 -->
+ <!-- 2021.05.06.10:56:52 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1619521287</value>
+  <value>1620291411</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -2475,7 +2475,7 @@ parameters are a RESULT of the module parameters. -->
  <module
    name="RISC_V_AVALON_0"
    kind="RISC_V_AVALON"
-   version="3.0"
+   version="3.1"
    path="RISC_V_AVALON_0">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
@@ -5271,7 +5271,7 @@ parameters are a RESULT of the module parameters. -->
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IModule</subtype>
   <displayName>RISC_V_AVALON</displayName>
-  <version>3.0</version>
+  <version>3.1</version>
  </plugin>
  <plugin>
   <instanceCount>1</instanceCount>

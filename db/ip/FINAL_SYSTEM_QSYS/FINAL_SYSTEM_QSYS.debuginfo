@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="FINAL_SYSTEM_QSYS" kind="system" version="17.1" fabric="QSYS">
  <!-- Format version 17.1 590 (Future versions may contain additional information.) -->
- <!-- 2021.04.27.13:01:38 -->
+ <!-- 2021.05.06.10:57:03 -->
  <!-- A collection of modules and connections -->
  <parameter name="clockCrossingAdapter">
   <type>com.altera.sopcmodel.ensemble.EClockAdapter</type>
@@ -53,7 +53,7 @@
  </parameter>
  <parameter name="generationId">
   <type>int</type>
-  <value>1619521287</value>
+  <value>1620291411</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>true</visible>
@@ -2523,7 +2523,7 @@ parameters are a RESULT of the module parameters. -->
  <module
    name="RISC_V_AVALON_0"
    kind="RISC_V_AVALON"
-   version="3.0"
+   version="3.1"
    path="RISC_V_AVALON_0">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
@@ -9894,7 +9894,7 @@ parameters are a RESULT of the module parameters. -->
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IModule</subtype>
   <displayName>RISC_V_AVALON</displayName>
-  <version>3.0</version>
+  <version>3.1</version>
  </plugin>
  <plugin>
   <instanceCount>1</instanceCount>
@@ -10017,5 +10017,5 @@ parameters are a RESULT of the module parameters. -->
   <version>17.1</version>
  </plugin>
  <reportVersion>17.1 590</reportVersion>
- <uniqueIdentifier>DEF5056F3FEF0000017912FDC5F4</uniqueIdentifier>
+ <uniqueIdentifier>DEF5056F3FEF0000017940E4F115</uniqueIdentifier>
 </EnsembleReport>
