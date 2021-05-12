@@ -618,7 +618,7 @@ VCCINT                       : M19       : power  :                   : 1.2V    
 GND                          : M20       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : M21       :        :                   :         : 6         :                
 MSEL2                        : M22       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : M23       :        :                   :         : 6         :                
+RST                          : M23       : input  : 2.5 V             :         : 6         : Y              
 HEX1[0]                      : M24       : output : 2.5 V             :         : 6         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : M25       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : M26       :        :                   :         : 6         :                

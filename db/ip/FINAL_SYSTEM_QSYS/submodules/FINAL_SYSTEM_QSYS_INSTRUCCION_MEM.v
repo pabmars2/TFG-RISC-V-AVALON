@@ -36,9 +36,6 @@ module FINAL_SYSTEM_QSYS_INSTRUCCION_MEM (
                                          )
 ;
 
-  parameter INIT_FILE = "FINAL_SYSTEM_QSYS_INSTRUCCION_MEM.hex";
-
-
   output  [ 31: 0] readdata;
   input   [  5: 0] address;
   input   [  3: 0] byteenable;
@@ -69,7 +66,7 @@ wire             wren;
     );
 
   defparam the_altsyncram.byte_size = 8,
-           the_altsyncram.init_file = INIT_FILE,
+           the_altsyncram.init_file = "UNUSED",
            the_altsyncram.lpm_type = "altsyncram",
            the_altsyncram.maximum_depth = 64,
            the_altsyncram.numwords_a = 64,

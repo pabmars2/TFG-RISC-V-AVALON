@@ -68,7 +68,7 @@ module FINAL_SYSTEM_QSYS (
 	wire  [31:0] mm_interconnect_2_instruccion_mem_s1_writedata;                  // mm_interconnect_2:INSTRUCCION_MEM_s1_writedata -> INSTRUCCION_MEM:writedata
 	wire         mm_interconnect_2_instruccion_mem_s1_clken;                      // mm_interconnect_2:INSTRUCCION_MEM_s1_clken -> INSTRUCCION_MEM:clken
 	wire         rst_controller_reset_out_reset;                                  // rst_controller:reset_out -> [AvalonMasterUART_0:RST, EXTERNAL_MEM:reset, INSTRUCCION_MEM:reset, RISC_V_AVALON_0:RST, mm_interconnect_0:AvalonMasterUART_0_reset_reset_bridge_in_reset_reset, mm_interconnect_1:RISC_V_AVALON_0_reset_sink_reset_bridge_in_reset_reset, mm_interconnect_1:avalon_displays7seg_0_reset_sink_reset_bridge_in_reset_reset, mm_interconnect_2:RISC_V_AVALON_0_reset_sink_reset_bridge_in_reset_reset, rst_translator:in_reset]
-	wire         rst_controller_reset_out_reset_req;                              // rst_controller:reset_req -> [EXTERNAL_MEM:reset_req, INSTRUCCION_MEM:reset_req, rst_translator:reset_req_in]
+	wire         rst_controller_reset_out_reset_req;                              // rst_controller:reset_req -> [EXTERNAL_MEM:reset_req, rst_translator:reset_req_in]
 	wire         rst_controller_001_reset_out_reset;                              // rst_controller_001:reset_out -> avalon_displays7seg_0:reset
 
 	avalon_UART #(
@@ -114,7 +114,7 @@ module FINAL_SYSTEM_QSYS (
 		.writedata  (mm_interconnect_2_instruccion_mem_s1_writedata),  //       .writedata
 		.byteenable (mm_interconnect_2_instruccion_mem_s1_byteenable), //       .byteenable
 		.reset      (rst_controller_reset_out_reset),                  // reset1.reset
-		.reset_req  (rst_controller_reset_out_reset_req),              //       .reset_req
+		.reset_req  (1'b0),                                            // (terminated)
 		.freeze     (1'b0)                                             // (terminated)
 	);
 

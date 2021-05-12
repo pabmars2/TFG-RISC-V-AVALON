@@ -240,6 +240,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "RST",
+					"strict" : false
+				},
+				{
 					"name" : "altera_reserved_tms",
 					"strict" : false
 				},

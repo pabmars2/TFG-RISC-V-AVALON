@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE115F29) Path("C:/Users/Pablo/Desktop/TFG/SistemaFinal/output_files/") File("SistemaRiscV.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE115F29) Path("C:/Users/Pablo/Desktop/TFG/FINAL/TFG-RISC-V-AVALON/output_files/") File("SistemaRiscV.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

@@ -5,11 +5,11 @@
  version="1.0"
  fabric="QSYS">
  <!-- Format version 17.1 590 (Future versions may contain additional information.) -->
- <!-- 2021.05.06.10:56:52 -->
+ <!-- 2021.05.12.17:19:49 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1620291411</value>
+  <value>1620832789</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -1637,7 +1637,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INIT_MEM_CONTENT</name>
-   <value>1</value>
+   <value>0</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INSTANCE_ID</name>
@@ -1765,7 +1765,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="initMemContent">
    <type>boolean</type>
-   <value>true</value>
+   <value>false</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -1783,7 +1783,7 @@ the requested settings for a module instance. -->
    <type>boolean</type>
    <value>false</value>
    <derived>false</derived>
-   <enabled>true</enabled>
+   <enabled>false</enabled>
    <visible>true</visible>
    <valid>true</valid>
   </parameter>
@@ -1863,7 +1863,7 @@ the requested settings for a module instance. -->
    <type>boolean</type>
    <value>false</value>
    <derived>false</derived>
-   <enabled>true</enabled>
+   <enabled>false</enabled>
    <visible>true</visible>
    <valid>true</valid>
   </parameter>
@@ -1901,7 +1901,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="resetrequest_enabled">
    <type>boolean</type>
-   <value>true</value>
+   <value>false</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -2464,18 +2464,12 @@ parameters are a RESULT of the module parameters. -->
     <width>1</width>
     <role>reset</role>
    </port>
-   <port>
-    <name>reset_req</name>
-    <direction>Input</direction>
-    <width>1</width>
-    <role>reset_req</role>
-   </port>
   </interface>
  </module>
  <module
    name="RISC_V_AVALON_0"
    kind="RISC_V_AVALON"
-   version="3.1"
+   version="3.2"
    path="RISC_V_AVALON_0">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
@@ -5271,7 +5265,7 @@ parameters are a RESULT of the module parameters. -->
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IModule</subtype>
   <displayName>RISC_V_AVALON</displayName>
-  <version>3.1</version>
+  <version>3.2</version>
  </plugin>
  <plugin>
   <instanceCount>1</instanceCount>

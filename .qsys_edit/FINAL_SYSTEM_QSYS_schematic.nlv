@@ -7,17 +7,17 @@ preplace inst FINAL_SYSTEM_QSYS.avalon_displays7seg_0 -pg 1 -lvl 4 -y 140
 preplace inst FINAL_SYSTEM_QSYS -pg 1 -lvl 1 -y 40 -regy -20
 preplace inst FINAL_SYSTEM_QSYS.AvalonMasterUART_0 -pg 1 -lvl 2 -y 80
 preplace inst FINAL_SYSTEM_QSYS.EXTERNAL_MEM -pg 1 -lvl 4 -y 240
-preplace netloc POINT_TO_POINT<net_container>FINAL_SYSTEM_QSYS</net_container>(MASTER)RISC_V_AVALON_0.master_instruccions,(SLAVE)INSTRUCCION_MEM.s1) 1 3 1 1100
+preplace netloc EXPORT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)FINAL_SYSTEM_QSYS.reset) 1 0 1 NJ
 preplace netloc EXPORT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)FINAL_SYSTEM_QSYS.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
-preplace netloc POINT_TO_POINT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)RISC_V_AVALON_0.DoneSending,(SLAVE)AvalonMasterUART_0.DoneSending) 1 1 2 430 30 770
-preplace netloc FAN_OUT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)INSTRUCCION_MEM.clk1,(SLAVE)avalon_displays7seg_0.clock_sink,(SLAVE)AvalonMasterUART_0.clock,(SLAVE)RISC_V_AVALON_0.clock,(MASTER)clk_0.clk,(SLAVE)EXTERNAL_MEM.clk1) 1 1 3 410 70 730 170 1120
 preplace netloc EXPORT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)FINAL_SYSTEM_QSYS.avalon_displays7seg_0_external_interface,(SLAVE)avalon_displays7seg_0.external_interface) 1 0 4 NJ 370 NJ 370 NJ 370 NJ
 preplace netloc POINT_TO_POINT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)RISC_V_AVALON_0.control_debug,(SLAVE)AvalonMasterUART_0.control) 1 1 2 450 50 750
-preplace netloc FAN_OUT<net_container>FINAL_SYSTEM_QSYS</net_container>(MASTER)RISC_V_AVALON_0.master_external,(SLAVE)avalon_displays7seg_0.avalon_slave,(SLAVE)EXTERNAL_MEM.s1) 1 3 1 1080
-preplace netloc POINT_TO_POINT<net_container>FINAL_SYSTEM_QSYS</net_container>(MASTER)AvalonMasterUART_0.avalon_master,(SLAVE)RISC_V_AVALON_0.debug) 1 2 1 710
-preplace netloc EXPORT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)FINAL_SYSTEM_QSYS.avalonmasteruart_0_rs232_rx,(SLAVE)AvalonMasterUART_0.rs232_rx) 1 0 2 NJ 170 NJ
-preplace netloc EXPORT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)AvalonMasterUART_0.rs232_tx,(SLAVE)FINAL_SYSTEM_QSYS.avalonmasteruart_0_rs232_tx) 1 0 2 NJ 190 NJ
-preplace netloc EXPORT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)FINAL_SYSTEM_QSYS.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
-preplace netloc FAN_OUT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)INSTRUCCION_MEM.reset1,(SLAVE)EXTERNAL_MEM.reset1,(MASTER)clk_0.clk_reset,(SLAVE)RISC_V_AVALON_0.reset_sink,(SLAVE)avalon_displays7seg_0.reset_sink,(SLAVE)AvalonMasterUART_0.reset) 1 1 3 430 250 690 350 1140
+preplace netloc FAN_OUT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)RISC_V_AVALON_0.clock,(SLAVE)EXTERNAL_MEM.clk1,(SLAVE)INSTRUCCION_MEM.clk1,(SLAVE)avalon_displays7seg_0.clock_sink,(MASTER)clk_0.clk,(SLAVE)AvalonMasterUART_0.clock) 1 1 3 430 250 730 350 1120
+preplace netloc POINT_TO_POINT<net_container>FINAL_SYSTEM_QSYS</net_container>(MASTER)AvalonMasterUART_0.avalon_master,(SLAVE)RISC_V_AVALON_0.debug) 1 2 1 690
+preplace netloc EXPORT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)AvalonMasterUART_0.rs232_rx,(SLAVE)FINAL_SYSTEM_QSYS.avalonmasteruart_0_rs232_rx) 1 0 2 NJ 170 NJ
+preplace netloc FAN_OUT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)AvalonMasterUART_0.reset,(SLAVE)INSTRUCCION_MEM.reset1,(SLAVE)RISC_V_AVALON_0.reset_sink,(SLAVE)EXTERNAL_MEM.reset1,(SLAVE)avalon_displays7seg_0.reset_sink,(MASTER)clk_0.clk_reset) 1 1 3 410 70 710 210 1140
+preplace netloc FAN_OUT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)EXTERNAL_MEM.s1,(MASTER)RISC_V_AVALON_0.master_external,(SLAVE)avalon_displays7seg_0.avalon_slave) 1 3 1 1080
+preplace netloc EXPORT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)FINAL_SYSTEM_QSYS.avalonmasteruart_0_rs232_tx,(SLAVE)AvalonMasterUART_0.rs232_tx) 1 0 2 NJ 190 NJ
+preplace netloc POINT_TO_POINT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)AvalonMasterUART_0.DoneSending,(SLAVE)RISC_V_AVALON_0.DoneSending) 1 1 2 430 30 770
+preplace netloc POINT_TO_POINT<net_container>FINAL_SYSTEM_QSYS</net_container>(SLAVE)INSTRUCCION_MEM.s1,(MASTER)RISC_V_AVALON_0.master_instruccions) 1 3 1 1100
 levelinfo -pg 1 0 200 1360
 levelinfo -hier FINAL_SYSTEM_QSYS 210 240 520 820 1190 1350

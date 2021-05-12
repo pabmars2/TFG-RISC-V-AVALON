@@ -183,12 +183,12 @@
   <parameter name="ecc_enabled" value="false" />
   <parameter name="enPRInitMode" value="false" />
   <parameter name="enableDiffWidth" value="false" />
-  <parameter name="initMemContent" value="true" />
+  <parameter name="initMemContent" value="false" />
   <parameter name="initializationFileName" value="onchip_mem.hex" />
   <parameter name="instanceID" value="NONE" />
   <parameter name="memorySize" value="256" />
   <parameter name="readDuringWriteMode" value="DONT_CARE" />
-  <parameter name="resetrequest_enabled" value="true" />
+  <parameter name="resetrequest_enabled" value="false" />
   <parameter name="simAllowMRAMContentsFile" value="false" />
   <parameter name="simMemInitOnlyFilename" value="0" />
   <parameter name="singleClockOperation" value="false" />
@@ -198,7 +198,7 @@
   <parameter name="useShallowMemBlocks" value="false" />
   <parameter name="writable" value="true" />
  </module>
- <module name="RISC_V_AVALON_0" kind="RISC_V_AVALON" version="3.1" enabled="1" />
+ <module name="RISC_V_AVALON_0" kind="RISC_V_AVALON" version="3.2" enabled="1" />
  <module
    name="avalon_displays7seg_0"
    kind="avalon_displays7seg"
