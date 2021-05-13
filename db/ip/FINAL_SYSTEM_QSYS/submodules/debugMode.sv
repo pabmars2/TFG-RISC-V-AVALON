@@ -1,6 +1,6 @@
 module debugMode(CLK, RST, chipselect_debug, write_debug, writedata_debug, read_debug, 
 adress_debug, readdata_debug, debug, enable_ext, enable_pc_ext, tx_flag, address_bridged,
-data_bridged, mode, data_internal, doneSending, enableStep);
+data_bridged, mode, data_internal, doneSending, enableStep, clr_ext);
 
 parameter freq = 50000000;
 
@@ -17,7 +17,7 @@ output reg [31:0] readdata_debug;
 
 //CONTROL DEBUG SIGNAL
 output reg debug;
-output reg [3 : 0] enable_ext;
+output reg [3 : 0] enable_ext, clr_ext;
 output reg enable_pc_ext;
 output reg tx_flag;
 
@@ -35,9 +35,10 @@ reg doneSendingAux = 0;
 
 reg [31 : 0] r_Clock_Count = 0;
 
-assign debug = reg0_internal[0]; 
+assign debug = ~reg0_internal[0]; 
 assign data_bridged = reg2_internal;
 assign address_bridged = reg1_internal;
+assign clr_ext = (reg0_internal[8] == 1'b1) ? 4'b1111 : 4'b0000;
 
 enum {/*INITIAL,*/ IDLE, DEBUG, DONE} state;
 
@@ -64,7 +65,7 @@ begin
 	begin
 		enable_pc_ext = 1'b0;
 		enable_ext = 4'b0000;
-		mode = 3'b100;
+		mode = 3'b000;
 		tx_flag = 1'b0;
 		we_internal = 1'b0;
 		
@@ -115,9 +116,9 @@ begin
 						
 						//2'b01: state <= INITIAL;
 						
-						2'b00: state <= DEBUG;
+						2'b10: state <= DEBUG;
 						
-						2'b10: state <= IDLE;
+						2'b00: state <= IDLE;
 						
 						default: state <= IDLE;
 					
@@ -257,7 +258,7 @@ begin
 							end
 					end
 					
-					if(reg0_internal[0] == 1'b1)
+					if(reg0_internal[0] == 1'b0)
 						state <= DONE;
 					else
 						state <= DEBUG;					
@@ -278,9 +279,9 @@ begin
 						
 						//2'b01: state <= INITIAL;
 						
-						2'b00: state <= DEBUG;
+						2'b10: state <= DEBUG;
 						
-						2'b10: state <= IDLE;
+						2'b00: state <= IDLE;
 						
 						default: state <= IDLE;
 					

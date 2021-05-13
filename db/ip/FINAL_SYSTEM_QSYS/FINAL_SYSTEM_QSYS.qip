@@ -2,7 +2,7 @@ set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -
 set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name IP_TOOL_VERSION "17.1"
 set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "FINAL_SYSTEM_QSYS" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../../FINAL_SYSTEM_QSYS.sopcinfo"]
-set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name SLD_INFO "QSYS_NAME FINAL_SYSTEM_QSYS HAS_SOPCINFO 1 GENERATION_ID 1620832789"
+set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name SLD_INFO "QSYS_NAME FINAL_SYSTEM_QSYS HAS_SOPCINFO 1 GENERATION_ID 1620907251"
 set_global_assignment -library "FINAL_SYSTEM_QSYS" -name SLD_FILE [file join $::quartus(qip_path) "FINAL_SYSTEM_QSYS.debuginfo"]
 set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name IP_TARGETED_DEVICE_FAMILY "Cyclone IV E"
 set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name IP_GENERATED_DEVICE_FAMILY "{Cyclone IV E}"
@@ -14,7 +14,7 @@ set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -
 set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_REPORT_HIERARCHY "On"
 set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_INTERNAL "Off"
 set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_VERSION "MS4w"
-set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTYyMDgzMjc4OQ==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTYyMDkwNzI1MQ==::QXV0byBHRU5FUkFUSU9OX0lE"
 set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ"
 set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::RVA0Q0UxMTVGMjlDNw==::QXV0byBERVZJQ0U="
 set_global_assignment -entity "FINAL_SYSTEM_QSYS" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Nw==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
@@ -509,7 +509,7 @@ set_global_assignment -entity "top_Avalon" -library "FINAL_SYSTEM_QSYS" -name IP
 set_global_assignment -entity "top_Avalon" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_DISPLAY_NAME "UklTQ19WX0FWQUxPTg=="
 set_global_assignment -entity "top_Avalon" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
 set_global_assignment -entity "top_Avalon" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_INTERNAL "Off"
-set_global_assignment -entity "top_Avalon" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_VERSION "My4y"
+set_global_assignment -entity "top_Avalon" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_VERSION "My40"
 set_global_assignment -entity "FINAL_SYSTEM_QSYS_INSTRUCCION_MEM" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_NAME "RklOQUxfU1lTVEVNX1FTWVNfSU5TVFJVQ0NJT05fTUVN"
 set_global_assignment -entity "FINAL_SYSTEM_QSYS_INSTRUCCION_MEM" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_DISPLAY_NAME "T24tQ2hpcCBNZW1vcnkgKFJBTSBvciBST00p"
 set_global_assignment -entity "FINAL_SYSTEM_QSYS_INSTRUCCION_MEM" -library "FINAL_SYSTEM_QSYS" -name IP_COMPONENT_REPORT_HIERARCHY "Off"

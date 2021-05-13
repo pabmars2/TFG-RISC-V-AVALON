@@ -6,7 +6,9 @@ input RX;
 output [6 : 0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7;
 output TX;
 
-//reg RST = 1'b0;
+//wire RST_mem; 
+
+//assign RST_mem = 1'b0;
 
 FINAL_SYSTEM_QSYS u0 (
 	.avalon_displays7seg_0_external_interface_conduit1 (HEX1), // avalon_displays7seg_0_external_interface.conduit1
@@ -22,6 +24,7 @@ FINAL_SYSTEM_QSYS u0 (
    .clk_clk                                           (CLK),                                           //                                      clk.clk
    .reset_reset_n                                     (RST)                                      //                                    reset.reset_n
 );
+
 
 
 

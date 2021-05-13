@@ -198,7 +198,7 @@
   <parameter name="useShallowMemBlocks" value="false" />
   <parameter name="writable" value="true" />
  </module>
- <module name="RISC_V_AVALON_0" kind="RISC_V_AVALON" version="3.2" enabled="1" />
+ <module name="RISC_V_AVALON_0" kind="RISC_V_AVALON" version="3.4" enabled="1" />
  <module
    name="avalon_displays7seg_0"
    kind="avalon_displays7seg"
@@ -300,12 +300,12 @@
    kind="reset"
    version="17.1"
    start="clk_0.clk_reset"
-   end="INSTRUCCION_MEM.reset1" />
+   end="EXTERNAL_MEM.reset1" />
  <connection
    kind="reset"
    version="17.1"
    start="clk_0.clk_reset"
-   end="EXTERNAL_MEM.reset1" />
+   end="INSTRUCCION_MEM.reset1" />
  <connection
    kind="reset"
    version="17.1"
