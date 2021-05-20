@@ -120,15 +120,15 @@ module AvalonRiscV_QSYS_tb (
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h87);
+      UART_WRITE_BYTE(8'h09);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h17);
+      UART_WRITE_BYTE(8'h30);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h23);
+      UART_WRITE_BYTE(8'h12);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
@@ -136,8 +136,9 @@ module AvalonRiscV_QSYS_tb (
       @(posedge r_Clock);
 	  
 	  
+	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h40);
+      UART_WRITE_BYTE(8'h41);
       @(posedge r_Clock);
 
 	  @(posedge r_Clock);
@@ -158,7 +159,7 @@ module AvalonRiscV_QSYS_tb (
 
 		
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
+      UART_WRITE_BYTE(8'h01);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
@@ -179,7 +180,7 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  
       @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h40);
+      UART_WRITE_BYTE(8'h04);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
@@ -201,7 +202,7 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h13);
+      UART_WRITE_BYTE(8'h93);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
@@ -209,7 +210,7 @@ module AvalonRiscV_QSYS_tb (
       @(posedge r_Clock);	  
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h08);
+      UART_WRITE_BYTE(8'h00);
       @(posedge r_Clock);	  
 	  
 	  @(posedge r_Clock);
@@ -222,7 +223,7 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h40);
+      UART_WRITE_BYTE(8'h41);
       @(posedge r_Clock);
 
 	  @(posedge r_Clock);
@@ -242,8 +243,9 @@ module AvalonRiscV_QSYS_tb (
       @(posedge r_Clock);
 	  
 	  
+	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
+      UART_WRITE_BYTE(8'h01);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
@@ -264,7 +266,7 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  
 	  
-	  /* @(posedge r_Clock);
+	  @(posedge r_Clock);
       UART_WRITE_BYTE(8'h08);
       @(posedge r_Clock);
 	  
@@ -287,19 +289,19 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h23);
+      UART_WRITE_BYTE(8'h37);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h20);
+      UART_WRITE_BYTE(8'hf9);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'hf8);
+      UART_WRITE_BYTE(8'hfa);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
+      UART_WRITE_BYTE(8'h02);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
@@ -309,7 +311,7 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h40);
+      UART_WRITE_BYTE(8'h41);
       @(posedge r_Clock);
 
 	  @(posedge r_Clock);
@@ -329,8 +331,10 @@ module AvalonRiscV_QSYS_tb (
       @(posedge r_Clock);
 	  
 	  
-	  	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
@@ -348,6 +352,7 @@ module AvalonRiscV_QSYS_tb (
 	  @(posedge r_Clock);
       UART_WRITE_BYTE(8'h00);
       @(posedge r_Clock);
+	  
 	  
 	  
       UART_WRITE_BYTE(8'h0c);
@@ -372,19 +377,19 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h13);
+      UART_WRITE_BYTE(8'h23);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h08);
+      UART_WRITE_BYTE(8'ha2);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h48);
+      UART_WRITE_BYTE(8'h38);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
+      UART_WRITE_BYTE(8'h01);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
@@ -394,7 +399,7 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h40);
+      UART_WRITE_BYTE(8'h41);
       @(posedge r_Clock);
 
 	  @(posedge r_Clock);
@@ -414,8 +419,9 @@ module AvalonRiscV_QSYS_tb (
       @(posedge r_Clock);
 	  
 	  
-	  	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
@@ -433,6 +439,7 @@ module AvalonRiscV_QSYS_tb (
 	  @(posedge r_Clock);
       UART_WRITE_BYTE(8'h00);
       @(posedge r_Clock);
+	  
 	  
 	  
       UART_WRITE_BYTE(8'h10);
@@ -457,15 +464,549 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h6f);
+      UART_WRITE_BYTE(8'h13);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'hf0);
+      UART_WRITE_BYTE(8'h0a);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h9f);
+      UART_WRITE_BYTE(8'h1a);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h02);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h41);
+      @(posedge r_Clock);
+
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock); 
+	  
+	  
+	  
+      UART_WRITE_BYTE(8'h14);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'hb3);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h02);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h41);
+      @(posedge r_Clock);
+
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock); 	  
+	  
+	  
+	  
+
+      UART_WRITE_BYTE(8'h18);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h23);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'ha0);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h48);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h02);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h41);
+      @(posedge r_Clock);
+
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock); 
+	  
+	  
+	  
+
+      UART_WRITE_BYTE(8'h1c);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h93);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h80);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h10);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h02);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h41);
+      @(posedge r_Clock);
+
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock); 	
+
+
+
+
+	  UART_WRITE_BYTE(8'h20);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'he3);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h88);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h20);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'hff);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h02);
+      @(posedge r_Clock);
+	  
+
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h41);
+      @(posedge r_Clock);
+
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock); 
+
+
+
+
+
+      UART_WRITE_BYTE(8'h24);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h13);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h02);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h41);
+      @(posedge r_Clock);
+
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock); 
+	  
+	  
+	  
+	  
+	  UART_WRITE_BYTE(8'h28);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'he3);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h9a);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h20);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
@@ -478,8 +1019,10 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  
 	  
+	  
+	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h40);
+      UART_WRITE_BYTE(8'h41);
       @(posedge r_Clock);
 
 	  @(posedge r_Clock);
@@ -498,31 +1041,55 @@ module AvalonRiscV_QSYS_tb (
       UART_WRITE_BYTE(8'h00);
       @(posedge r_Clock);
 	  
-	  
-	  	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock);
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock);
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock);
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock);
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock); */
 	  
 	  
 	  @(posedge r_Clock);
       UART_WRITE_BYTE(8'h01);
       @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock); 
+	  
+	  
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);			
+      @(posedge r_Clock);
+
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  
+	   
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);			
+      @(posedge r_Clock);
 
 	  @(posedge r_Clock);
       UART_WRITE_BYTE(8'h00);
@@ -540,58 +1107,10 @@ module AvalonRiscV_QSYS_tb (
       UART_WRITE_BYTE(8'h00);
       @(posedge r_Clock);
 	  
-
-	  repeat(40*c_CLKS_PER_BIT) @(posedge r_Clock);
-      // Check that the correct command was received
 	  
-	  
+	  /*
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h50);			
-      @(posedge r_Clock);
-
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock);
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock);
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock);
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock);
-	  
-	  repeat(40*c_CLKS_PER_BIT) @(posedge r_Clock); 
-
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);			
-      @(posedge r_Clock);
-
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock);
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock);
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock);
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock);
-	  
-	  
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h60);			
+      UART_WRITE_BYTE(8'h61);			
       @(posedge r_Clock);
 
 	  @(posedge r_Clock);
@@ -613,7 +1132,7 @@ module AvalonRiscV_QSYS_tb (
 	  repeat(40*c_CLKS_PER_BIT) @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);			
+      UART_WRITE_BYTE(8'h01);			
       @(posedge r_Clock);
 
 	  @(posedge r_Clock);
@@ -657,7 +1176,7 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h20);			
+      UART_WRITE_BYTE(8'h21);			
       @(posedge r_Clock);
 
 	  @(posedge r_Clock);
@@ -672,18 +1191,18 @@ module AvalonRiscV_QSYS_tb (
       UART_WRITE_BYTE(8'h00);
       @(posedge r_Clock);
 	  
-	  @(posedge r_Clock);
+      @(posedge r_Clock);
       UART_WRITE_BYTE(8'h00);
       @(posedge r_Clock);
 
-
+      repeat(40*c_CLKS_PER_BIT) @(posedge r_Clock);  
 	
-  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);			
+      @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h01);			
       @(posedge r_Clock);
 
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
+      UART_WRITE_BYTE(8'h01);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
@@ -702,11 +1221,7 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  
 	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h00);
-      @(posedge r_Clock);
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h01);
+      UART_WRITE_BYTE(8'h0d);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
@@ -715,6 +1230,10 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  @(posedge r_Clock);
       UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h05);
       @(posedge r_Clock);
 	  
 	  @(posedge r_Clock);
@@ -723,12 +1242,8 @@ module AvalonRiscV_QSYS_tb (
 	  
 	  	  
 	  
-	  repeat(40*c_CLKS_PER_BIT) @(posedge r_Clock); 
-	  
-	  
-	  @(posedge r_Clock);
-      UART_WRITE_BYTE(8'h01);
-      @(posedge r_Clock);
+	  repeat(400*c_CLKS_PER_BIT) @(posedge r_Clock); 
+	  */
 	  
 	  @(posedge r_Clock);
       UART_WRITE_BYTE(8'h00);
@@ -746,7 +1261,11 @@ module AvalonRiscV_QSYS_tb (
       UART_WRITE_BYTE(8'h00);
       @(posedge r_Clock);
 	  
-	  repeat(40*c_CLKS_PER_BIT) @(posedge r_Clock); 
+	  @(posedge r_Clock);
+      UART_WRITE_BYTE(8'h00);
+      @(posedge r_Clock);
+	  
+	  repeat(10000*c_CLKS_PER_BIT) @(posedge r_Clock); 
 	  
 	$stop;
     end

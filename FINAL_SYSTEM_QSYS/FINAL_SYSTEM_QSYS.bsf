@@ -125,7 +125,7 @@ refer to the applicable agreement for further details.
 		(text "clk" (rect 309 299 636 608)(font "Arial" (color 0 0 0)))
 		(text "reset" (rect 275 315 580 643)(font "Arial" (color 128 0 0)(font_size 9)))
 		(text "reset_n" (rect 309 339 660 688)(font "Arial" (color 0 0 0)))
-		(text " system " (rect 637 360 1322 730)(font "Arial" ))
+		(text " FINAL_SYSTEM_QSYS " (rect 561 360 1236 730)(font "Arial" ))
 		(line (pt 304 32)(pt 368 32)(line_width 1))
 		(line (pt 368 32)(pt 368 360)(line_width 1))
 		(line (pt 304 360)(pt 368 360)(line_width 1))

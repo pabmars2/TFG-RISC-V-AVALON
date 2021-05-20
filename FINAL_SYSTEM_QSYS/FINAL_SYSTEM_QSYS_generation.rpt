@@ -8,14 +8,12 @@ Progress: Adding EXTERNAL_MEM [altera_avalon_onchip_memory2 17.1]
 Progress: Parameterizing module EXTERNAL_MEM
 Progress: Adding INSTRUCCION_MEM [altera_avalon_onchip_memory2 17.1]
 Progress: Parameterizing module INSTRUCCION_MEM
-Progress: Adding RISC_V_AVALON_0 [RISC_V_AVALON 3.4]
+Progress: Adding RISC_V_AVALON_0 [RISC_V_AVALON 4.0]
 Progress: Parameterizing module RISC_V_AVALON_0
 Progress: Adding avalon_displays7seg_0 [avalon_displays7seg 1.0]
 Progress: Parameterizing module avalon_displays7seg_0
 Progress: Adding clk_0 [clock_source 17.1]
 Progress: Parameterizing module clk_0
-Progress: Adding reset_bridge_0 [altera_reset_bridge 17.1]
-Progress: Parameterizing module reset_bridge_0
 Progress: Building connections
 Progress: Parameterizing connections
 Progress: Validating
@@ -33,14 +31,12 @@ Progress: Adding EXTERNAL_MEM [altera_avalon_onchip_memory2 17.1]
 Progress: Parameterizing module EXTERNAL_MEM
 Progress: Adding INSTRUCCION_MEM [altera_avalon_onchip_memory2 17.1]
 Progress: Parameterizing module INSTRUCCION_MEM
-Progress: Adding RISC_V_AVALON_0 [RISC_V_AVALON 3.4]
+Progress: Adding RISC_V_AVALON_0 [RISC_V_AVALON 4.0]
 Progress: Parameterizing module RISC_V_AVALON_0
 Progress: Adding avalon_displays7seg_0 [avalon_displays7seg 1.0]
 Progress: Parameterizing module avalon_displays7seg_0
 Progress: Adding clk_0 [clock_source 17.1]
 Progress: Parameterizing module clk_0
-Progress: Adding reset_bridge_0 [altera_reset_bridge 17.1]
-Progress: Parameterizing module reset_bridge_0
 Progress: Building connections
 Progress: Parameterizing connections
 Progress: Validating
@@ -58,11 +54,11 @@ Warning: FINAL_SYSTEM_QSYS: "No matching role found for RISC_V_AVALON_0:master_e
 Warning: FINAL_SYSTEM_QSYS: "No matching role found for RISC_V_AVALON_0:master_instruccions:BeginTransfer_instr (flush)"
 Info: AvalonMasterUART_0: "FINAL_SYSTEM_QSYS" instantiated AvalonMasterUART "AvalonMasterUART_0"
 Info: EXTERNAL_MEM: Starting RTL generation for module 'FINAL_SYSTEM_QSYS_EXTERNAL_MEM'
-Info: EXTERNAL_MEM:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=FINAL_SYSTEM_QSYS_EXTERNAL_MEM --dir=C:/Users/Pablo/AppData/Local/Temp/alt8760_844507115059589940.dir/0021_EXTERNAL_MEM_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/Pablo/AppData/Local/Temp/alt8760_844507115059589940.dir/0021_EXTERNAL_MEM_gen//FINAL_SYSTEM_QSYS_EXTERNAL_MEM_component_configuration.pl  --do_build_sim=0  ]
+Info: EXTERNAL_MEM:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=FINAL_SYSTEM_QSYS_EXTERNAL_MEM --dir=C:/Users/Pablo/AppData/Local/Temp/alt8767_7434454545423879950.dir/0003_EXTERNAL_MEM_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/Pablo/AppData/Local/Temp/alt8767_7434454545423879950.dir/0003_EXTERNAL_MEM_gen//FINAL_SYSTEM_QSYS_EXTERNAL_MEM_component_configuration.pl  --do_build_sim=0  ]
 Info: EXTERNAL_MEM: Done RTL generation for module 'FINAL_SYSTEM_QSYS_EXTERNAL_MEM'
 Info: EXTERNAL_MEM: "FINAL_SYSTEM_QSYS" instantiated altera_avalon_onchip_memory2 "EXTERNAL_MEM"
 Info: INSTRUCCION_MEM: Starting RTL generation for module 'FINAL_SYSTEM_QSYS_INSTRUCCION_MEM'
-Info: INSTRUCCION_MEM:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=FINAL_SYSTEM_QSYS_INSTRUCCION_MEM --dir=C:/Users/Pablo/AppData/Local/Temp/alt8760_844507115059589940.dir/0022_INSTRUCCION_MEM_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/Pablo/AppData/Local/Temp/alt8760_844507115059589940.dir/0022_INSTRUCCION_MEM_gen//FINAL_SYSTEM_QSYS_INSTRUCCION_MEM_component_configuration.pl  --do_build_sim=0  ]
+Info: INSTRUCCION_MEM:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=FINAL_SYSTEM_QSYS_INSTRUCCION_MEM --dir=C:/Users/Pablo/AppData/Local/Temp/alt8767_7434454545423879950.dir/0004_INSTRUCCION_MEM_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/Pablo/AppData/Local/Temp/alt8767_7434454545423879950.dir/0004_INSTRUCCION_MEM_gen//FINAL_SYSTEM_QSYS_INSTRUCCION_MEM_component_configuration.pl  --do_build_sim=0  ]
 Info: INSTRUCCION_MEM: Done RTL generation for module 'FINAL_SYSTEM_QSYS_INSTRUCCION_MEM'
 Info: INSTRUCCION_MEM: "FINAL_SYSTEM_QSYS" instantiated altera_avalon_onchip_memory2 "INSTRUCCION_MEM"
 Info: RISC_V_AVALON_0: "FINAL_SYSTEM_QSYS" instantiated RISC_V_AVALON "RISC_V_AVALON_0"
@@ -89,6 +85,6 @@ Info: rsp_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_m
 Info: Reusing file C:/Users/Pablo/Desktop/TFG/FINAL/TFG-RISC-V-AVALON/FINAL_SYSTEM_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv
 Info: avalon_st_adapter: "mm_interconnect_1" instantiated altera_avalon_st_adapter "avalon_st_adapter"
 Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
-Info: FINAL_SYSTEM_QSYS: Done "FINAL_SYSTEM_QSYS" with 23 modules, 55 files
+Info: FINAL_SYSTEM_QSYS: Done "FINAL_SYSTEM_QSYS" with 23 modules, 56 files
 Info: qsys-generate succeeded.
 Info: Finished: Create HDL design files for synthesis
