@@ -1,5 +1,5 @@
 Flow report for SistemaRiscV
-Fri May 21 14:03:10 2021
+Sat May 29 15:05:29 2021
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,20 +40,20 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri May 21 14:03:03 2021       ;
+; Flow Status                        ; Successful - Sat May 29 15:05:20 2021       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; SistemaRiscV                                ;
 ; Top-level Entity Name              ; top_QSYS_RISC                               ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 5,382 / 114,480 ( 5 % )                     ;
-;     Total combinational functions  ; 4,493 / 114,480 ( 4 % )                     ;
-;     Dedicated logic registers      ; 3,175 / 114,480 ( 3 % )                     ;
-; Total registers                    ; 3175                                        ;
+; Total logic elements               ; 5,239 / 114,480 ( 5 % )                     ;
+;     Total combinational functions  ; 4,527 / 114,480 ( 4 % )                     ;
+;     Dedicated logic registers      ; 3,046 / 114,480 ( 3 % )                     ;
+; Total registers                    ; 3046                                        ;
 ; Total pins                         ; 60 / 529 ( 11 % )                           ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 3,411,968 / 3,981,312 ( 86 % )              ;
+; Total memory bits                  ; 2,691,072 / 3,981,312 ( 68 % )              ;
 ; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
 ; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
 +------------------------------------+---------------------------------------------+
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/21/2021 14:01:01 ;
+; Start date & time ; 05/29/2021 15:02:51 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; SistemaRiscV        ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+-------------------------------------------------------------------------------------------------------+---------------+---------------+------------------+
 ; Assignment Name                     ; Value                                                                                                 ; Default Value ; Entity Name   ; Section Id       ;
 +-------------------------------------+-------------------------------------------------------------------------------------------------------+---------------+---------------+------------------+
-; COMPILER_SIGNATURE_ID               ; 245143939530735.162159846010128                                                                       ; --            ; --            ; --               ;
+; COMPILER_SIGNATURE_ID               ; 245143939530735.162229337014576                                                                       ; --            ; --            ; --               ;
 ; ENABLE_SIGNALTAP                    ; On                                                                                                    ; --            ; --            ; --               ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                                                                    ; --            ; --            ; --               ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                                                                     ; --            ; --            ; --               ;
@@ -115,9 +115,9 @@ refer to the applicable agreement for further details.
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_CURRENT_RESOURCE_WIDTH=0                                                                          ; --            ; --            ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK=00000000000000000000000                                                            ; --            ; --            ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK_LENGTH=23                                                                          ; --            ; --            ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_BITS=2                                                                          ; --            ; --            ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_ADVANCED_CONDITION_ENTITY=sld_reserved_sq_SistemaRiscV_auto_signaltap_0_1_f9ed, ; --            ; --            ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_DATA_BITS=103                                                                                     ; --            ; --            ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_DATA_BITS=81                                                                                      ; --            ; --            ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_BITS=1                                                                          ; --            ; --            ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_ADVANCED_CONDITION_ENTITY=sld_reserved_sq_SistemaRiscV_auto_signaltap_0_1_95dc, ; --            ; --            ; auto_signaltap_0 ;
 ; TOP_LEVEL_ENTITY                    ; top_QSYS_RISC                                                                                         ; SistemaRiscV  ; --            ; --               ;
 ; USE_SIGNALTAP_FILE                  ; output_files/CAPTURA_SERIE.stp                                                                        ; --            ; --            ; --               ;
 +-------------------------------------+-------------------------------------------------------------------------------------------------------+---------------+---------------+------------------+
@@ -128,11 +128,11 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:15     ; 1.0                     ; 4913 MB             ; 00:02:18                           ;
-; Fitter                    ; 00:00:34     ; 1.1                     ; 5796 MB             ; 00:00:53                           ;
-; Assembler                 ; 00:00:05     ; 1.0                     ; 4713 MB             ; 00:00:05                           ;
-; TimeQuest Timing Analyzer ; 00:00:06     ; 1.4                     ; 4921 MB             ; 00:00:07                           ;
-; Total                     ; 00:02:00     ; --                      ; --                  ; 00:03:23                           ;
+; Analysis & Synthesis      ; 00:01:31     ; 1.0                     ; 4908 MB             ; 00:02:37                           ;
+; Fitter                    ; 00:00:42     ; 1.1                     ; 5846 MB             ; 00:01:02                           ;
+; Assembler                 ; 00:00:07     ; 1.0                     ; 4705 MB             ; 00:00:06                           ;
+; TimeQuest Timing Analyzer ; 00:00:08     ; 1.4                     ; 4914 MB             ; 00:00:08                           ;
+; Total                     ; 00:02:28     ; --                      ; --                  ; 00:03:53                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
