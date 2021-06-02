@@ -1,16 +1,16 @@
-Fitter Status : Successful - Sat May 29 15:05:09 2021
+Fitter Status : Successful - Wed Jun 02 17:10:32 2021
 Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : SistemaRiscV
 Top-level Entity Name : top_QSYS_RISC
 Family : Cyclone IV E
 Device : EP4CE115F29C7
 Timing Models : Final
-Total logic elements : 5,239 / 114,480 ( 5 % )
-    Total combinational functions : 4,527 / 114,480 ( 4 % )
-    Dedicated logic registers : 3,046 / 114,480 ( 3 % )
-Total registers : 3046
+Total logic elements : 5,409 / 114,480 ( 5 % )
+    Total combinational functions : 4,505 / 114,480 ( 4 % )
+    Dedicated logic registers : 3,160 / 114,480 ( 3 % )
+Total registers : 3160
 Total pins : 60 / 529 ( 11 % )
 Total virtual pins : 0
-Total memory bits : 2,691,072 / 3,981,312 ( 68 % )
+Total memory bits : 3,313,664 / 3,981,312 ( 83 % )
 Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
 Total PLLs : 0 / 4 ( 0 % )

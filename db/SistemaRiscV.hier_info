@@ -14257,6 +14257,8 @@ clr_ext[0] <= avalon_slave_MM_interface:slave_debug.reg0
 clr_ext[1] <= avalon_slave_MM_interface:slave_debug.reg0
 clr_ext[2] <= avalon_slave_MM_interface:slave_debug.reg0
 clr_ext[3] <= avalon_slave_MM_interface:slave_debug.reg0
+doneInstr => we_internal.IN0
+doneExt => we_internal.IN1
 
 
 |top_QSYS_RISC|FINAL_SYSTEM_QSYS:u0|top_Avalon:risc_v_avalon_0|debugMode:SystemDebug|avalon_slave_MM_interface:slave_debug

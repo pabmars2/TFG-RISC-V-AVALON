@@ -2,7 +2,7 @@ Info: Starting: Create block symbol file (.bsf)
 Info: qsys-generate C:\Users\Pablo\Desktop\TFG\FINAL\TFG-RISC-V-AVALON\FINAL_SYSTEM_QSYS.qsys --block-symbol-file --output-directory=C:\Users\Pablo\Desktop\TFG\FINAL\TFG-RISC-V-AVALON\FINAL_SYSTEM_QSYS --family="Cyclone IV E" --part=EP4CE115F29C7
 Progress: Loading TFG-RISC-V-AVALON/FINAL_SYSTEM_QSYS.qsys
 Progress: Reading input file
-Progress: Adding AvalonMasterUART_0 [AvalonMasterUART 4.2]
+Progress: Adding AvalonMasterUART_0 [AvalonMasterUART 4.3]
 Progress: Parameterizing module AvalonMasterUART_0
 Progress: Adding EXTERNAL_MEM [altera_avalon_onchip_memory2 17.1]
 Progress: Parameterizing module EXTERNAL_MEM
@@ -25,7 +25,7 @@ Info: Starting: Create HDL design files for synthesis
 Info: qsys-generate C:\Users\Pablo\Desktop\TFG\FINAL\TFG-RISC-V-AVALON\FINAL_SYSTEM_QSYS.qsys --synthesis=VERILOG --output-directory=C:\Users\Pablo\Desktop\TFG\FINAL\TFG-RISC-V-AVALON\FINAL_SYSTEM_QSYS\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
 Progress: Loading TFG-RISC-V-AVALON/FINAL_SYSTEM_QSYS.qsys
 Progress: Reading input file
-Progress: Adding AvalonMasterUART_0 [AvalonMasterUART 4.2]
+Progress: Adding AvalonMasterUART_0 [AvalonMasterUART 4.3]
 Progress: Parameterizing module AvalonMasterUART_0
 Progress: Adding EXTERNAL_MEM [altera_avalon_onchip_memory2 17.1]
 Progress: Parameterizing module EXTERNAL_MEM
@@ -54,11 +54,11 @@ Warning: FINAL_SYSTEM_QSYS: "No matching role found for RISC_V_AVALON_0:master_e
 Warning: FINAL_SYSTEM_QSYS: "No matching role found for RISC_V_AVALON_0:master_instruccions:BeginTransfer_instr (flush)"
 Info: AvalonMasterUART_0: "FINAL_SYSTEM_QSYS" instantiated AvalonMasterUART "AvalonMasterUART_0"
 Info: EXTERNAL_MEM: Starting RTL generation for module 'FINAL_SYSTEM_QSYS_EXTERNAL_MEM'
-Info: EXTERNAL_MEM:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=FINAL_SYSTEM_QSYS_EXTERNAL_MEM --dir=C:/Users/Pablo/AppData/Local/Temp/alt8775_1636582222315044373.dir/0003_EXTERNAL_MEM_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/Pablo/AppData/Local/Temp/alt8775_1636582222315044373.dir/0003_EXTERNAL_MEM_gen//FINAL_SYSTEM_QSYS_EXTERNAL_MEM_component_configuration.pl  --do_build_sim=0  ]
+Info: EXTERNAL_MEM:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=FINAL_SYSTEM_QSYS_EXTERNAL_MEM --dir=C:/Users/Pablo/AppData/Local/Temp/alt8776_7407401154210505687.dir/0003_EXTERNAL_MEM_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/Pablo/AppData/Local/Temp/alt8776_7407401154210505687.dir/0003_EXTERNAL_MEM_gen//FINAL_SYSTEM_QSYS_EXTERNAL_MEM_component_configuration.pl  --do_build_sim=0  ]
 Info: EXTERNAL_MEM: Done RTL generation for module 'FINAL_SYSTEM_QSYS_EXTERNAL_MEM'
 Info: EXTERNAL_MEM: "FINAL_SYSTEM_QSYS" instantiated altera_avalon_onchip_memory2 "EXTERNAL_MEM"
 Info: INSTRUCCION_MEM: Starting RTL generation for module 'FINAL_SYSTEM_QSYS_INSTRUCCION_MEM'
-Info: INSTRUCCION_MEM:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=FINAL_SYSTEM_QSYS_INSTRUCCION_MEM --dir=C:/Users/Pablo/AppData/Local/Temp/alt8775_1636582222315044373.dir/0004_INSTRUCCION_MEM_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/Pablo/AppData/Local/Temp/alt8775_1636582222315044373.dir/0004_INSTRUCCION_MEM_gen//FINAL_SYSTEM_QSYS_INSTRUCCION_MEM_component_configuration.pl  --do_build_sim=0  ]
+Info: INSTRUCCION_MEM:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=FINAL_SYSTEM_QSYS_INSTRUCCION_MEM --dir=C:/Users/Pablo/AppData/Local/Temp/alt8776_7407401154210505687.dir/0004_INSTRUCCION_MEM_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/Pablo/AppData/Local/Temp/alt8776_7407401154210505687.dir/0004_INSTRUCCION_MEM_gen//FINAL_SYSTEM_QSYS_INSTRUCCION_MEM_component_configuration.pl  --do_build_sim=0  ]
 Info: INSTRUCCION_MEM: Done RTL generation for module 'FINAL_SYSTEM_QSYS_INSTRUCCION_MEM'
 Info: INSTRUCCION_MEM: "FINAL_SYSTEM_QSYS" instantiated altera_avalon_onchip_memory2 "INSTRUCCION_MEM"
 Info: RISC_V_AVALON_0: "FINAL_SYSTEM_QSYS" instantiated RISC_V_AVALON "RISC_V_AVALON_0"
